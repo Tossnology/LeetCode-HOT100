@@ -1,17 +1,6 @@
 import java.util.ArrayList;
 
-class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode() {}
-      TreeNode(int val) { this.val = val; }
-      TreeNode(int val, TreeNode left, TreeNode right) {
-          this.val = val;
-          this.left = left;
-          this.right = right;
-      }
-}
+
 
 public class 对称二叉树 {
     public static void main(String[] args) {
