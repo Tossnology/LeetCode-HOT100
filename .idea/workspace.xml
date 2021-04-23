@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4428ba50-d062-4e86-bd12-a0a075253f5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/子集.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/比特位计数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/全排列.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode-HOT100/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode-HOT100/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode-HOT100/删除链表的倒数第N个节点.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode-HOT100/删除链表的倒数第N个节点.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/比特位计数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/比特位计数.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,18 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/删除链表的倒数第N个节点.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/子集.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="483">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,11 +71,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/比特位计数.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            <state relative-caret-position="598">
+              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/全排列.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -197,14 +195,15 @@
         <option value="$PROJECT_DIR$/src/回文链表.java" />
         <option value="$PROJECT_DIR$/src/子集.java" />
         <option value="$PROJECT_DIR$/src/比特位计数.java" />
+        <option value="$PROJECT_DIR$/src/全排列.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="466" />
+    <option name="x" value="465" />
     <option name="y" value="35" />
     <option name="width" value="1300" />
-    <option name="height" value="1104" />
+    <option name="height" value="1105" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -214,6 +213,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,7 +231,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,23 +254,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.比特位计数">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="最长回文子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="最长回文子串" />
-      <module name="LeetCode-HOT100" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="子集" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="子集" />
-      <module name="LeetCode-HOT100" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="比特位计数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="比特位计数" />
       <module name="LeetCode-HOT100" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -289,6 +274,34 @@
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="LeetCode-HOT100" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="下一个排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="下一个排列" />
+      <module name="LeetCode-HOT100" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="三数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="三数之和" />
+      <module name="LeetCode-HOT100" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="子集" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="子集" />
+      <module name="LeetCode-HOT100" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="比特位计数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="比特位计数" />
       <module name="LeetCode-HOT100" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -392,31 +405,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="下一个排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="下一个排列" />
-      <module name="LeetCode-HOT100" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="三数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="三数之和" />
-      <module name="LeetCode-HOT100" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.最长回文子串" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.子集" />
-      <item itemvalue="Application.比特位计数" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.比特位计数" />
-        <item itemvalue="Application.子集" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.最长回文子串" />
@@ -467,7 +462,9 @@
       <workItem from="1618462393478" duration="11720000" />
       <workItem from="1618735238371" duration="8076000" />
       <workItem from="1618817564415" duration="8847000" />
-      <workItem from="1618987722800" duration="7476000" />
+      <workItem from="1618987722800" duration="7601000" />
+      <workItem from="1619082130410" duration="1391000" />
+      <workItem from="1619171141847" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="最大子序和">
       <created>1614316085442</created>
@@ -518,17 +515,24 @@
       <option name="project" value="LOCAL" />
       <updated>1618832075922</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="子集，比特位计数">
+      <created>1619005755795</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619005755795</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161138000" />
+    <option name="totallyTimeSpent" value="162675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23391421" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24061662" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -538,7 +542,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27882037" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41957104" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41957104" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -612,7 +616,8 @@
     <MESSAGE value="多数元素，找到所有数组中消失的数字" />
     <MESSAGE value="最小栈，相交链表，移动零" />
     <MESSAGE value="分离出ListNode和TreeNode&#10;完成：二叉树的直径，回文链表&#10;修改：反转链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="分离出ListNode和TreeNode&#10;完成：二叉树的直径，回文链表&#10;修改：反转链表" />
+    <MESSAGE value="子集，比特位计数" />
+    <option name="LAST_COMMIT_MESSAGE" value="子集，比特位计数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -673,7 +678,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/比特位计数.java</url>
-          <line>27</line>
+          <line>43</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
@@ -681,13 +686,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/盛最多水的容器.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/三数之和.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1044,6 +1042,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/子集.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/比特位计数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/反转链表.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1072,20 +1087,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/子集.java">
+    <entry file="file://$PROJECT_DIR$/src/全排列.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        <state relative-caret-position="466">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/比特位计数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
         </state>
       </provider>
     </entry>

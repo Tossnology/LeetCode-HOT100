@@ -18,6 +18,22 @@ public class 比特位计数 {
         return ans;
     }
 
+    public int[] countBits2(int num) {
+        int[] ans = new int[num + 1];
+
+        ans[0] = 0;
+        int high = 0;
+
+        for (int i = 1; i < num + 1; i++) {
+            if ((ans[i] & ans[i-1]) == 0) {
+                high = i;
+            }
+            ans[i] = ans[i-high] + 1;
+        }
+
+        return ans;
+    }
+
     public static void main(String[] args) {
         //new一个test对象
         比特位计数 test = new 比特位计数();
